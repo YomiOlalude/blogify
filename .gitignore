@@ -1,0 +1,47 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Django static files
+/staticfiles/
+/media/
+
+# Local development settings
+/local_settings.py
+
+# Environment variables file
+.env
+
+# Django logs
+*.log
+
+# Database files
+*.sqlite3
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Test coverage reports
+htmlcov/
+*.cover
+*.py,cover
+
+# Pytest
+.cache/
+
+# Mypy
+.mypy_cache/
+
+# Pyre
+.pyre/
